@@ -12,7 +12,7 @@ public class CustomerData {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private Integer id;
+	private String id;
 	
 	private String name;
 	
@@ -20,12 +20,12 @@ public class CustomerData {
 	
 	private String stripeCstId;
 
-	public Integer getId() {
+	public String getId() {
 		return id;
 	}
 
-	public void setId(Integer id) {
-		this.id = id;
+	public void setId(String string) {
+		this.id = string;
 	}
 
 	public String getName() {
